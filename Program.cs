@@ -8,10 +8,8 @@ for (int i = 0; i < arr.Length; i++)
     {
         count++;
         Array.Resize(ref arr2,count);
-        arr2[count-1] =arr[i];
-        
+        arr2[count-1] =arr[i];    
     }
-   
 }
 System.Console.WriteLine();
  for (int i = 0; i <arr2.Length ; i++)
